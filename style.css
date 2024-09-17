@@ -1,0 +1,27 @@
+/*Definir a cor do tituto referente ao intervalo considerado no caso h2*/
+h2{color:red;}
+h1{color: brown;}
+
+/*Podemos também colocar o código da como por ex: "#000000" que se ref. a cor preta */
+body{
+    background-color: black; color: yellow;
+
+    font-family:Arial;  /* Define o tipo de fonte*/
+
+    text-align:center; /* Dentro da chaves podem ser maiusculo ou minusculo*/
+}
+
+/*coloca uma borda inferior branca solida de 1 pixel entre o titulo e subtitulo*/
+header{
+    border-bottom: 1px solid white;
+}
+
+/*coloca uma borda superior branca solida de 1 pixel entre o titulo e subtitulo*/
+footer{ 
+    border-top: 1px solid white ;
+}
+
+#palavra-negrito {
+    font-weight: bold ; /* fonte em negrito bold (negrito)*/
+}
+.texto-fonte{font-style: italic ;}
